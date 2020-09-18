@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="047af0b2-564f-491d-8e03-99b711a0e0c2" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SeleniumTest$Main.ic" NAME="Main Coverage Results" MODIFIED="1542204135986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#85#86#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoffStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/HoffStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="method#openBrowser#0;class#HoffStore#0" />
+                <element signature="method#closeBrowser#0;class#HoffStore#0" />
+                <element signature="method#selectTV#0;class#HoffStore#0" />
+                <element signature="method#enterAmount#0;class#HoffStore#0" />
+                <element signature="method#pressEnterInAmountBox#0;class#HoffStore#0" />
+                <element signature="method#getPurchaseConfirmation#0;class#HoffStore#0" />
+                <element signature="method#clickFirstSellButton#0;class#HoffStore#0" />
+                <element signature="method#getVATSum#0;class#HoffStore#0" />
+                <element signature="method#getReceiptTotal#0;class#HoffStore#0" />
+                <element signature="method#getMoney#0;class#HoffStore#0" />
+                <element signature="method#getReceiptList#0;class#HoffStore#0" />
+                <element signature="method#isProductFound#0;class#HoffStore#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoffStoreTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/com/company/HoffStoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="165" column="22" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+              <folding>
+                <element signature="method#setupTest#0;class#HoffStoreTest#0" />
+                <element signature="method#pressBuyButton_OneApplePurchase_Confirmed#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_FiveApplesPurchase_Confirmed#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_NaNAmount_ErrorMessage#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_MixedNaNAmount_ErrorMessage#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_Apples_SumOverLimit_ErrorMessage#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_DifferentThings_SumOverLimit_ErrorMessage#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_FiveApples_MoneyCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_OneAppleOneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_OneApple_ReceiptShowProduct#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_OneAppleOneTV_ReceiptShowProducts#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_OneAppleOneTV_TotalCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_TenApples_VATCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buy_TenApplesOneTV_VATCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buySell_OneApple_ReceiptTotalZero#0;class#HoffStoreTest#0" />
+                <element signature="method#buySell_OneApple_VATZero#0;class#HoffStoreTest#0" />
+                <element signature="method#buySell_OneApple_MoneyCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buySellFirst_OneAppleOneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buySellSecond_OneAppleOneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buySellAll_OneAppleOneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buySellTen_OneApple_MoneyCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buySell_OneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+                <element signature="method#buySellTen_OneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/GoogleExampleTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/HoffStoreTestTest.groovy" />
+        <option value="$PROJECT_DIR$/src/Test/HoffStoreTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/HoffStoreTestTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/HoffStoreTest.java" />
+        <option value="$PROJECT_DIR$/Tests/com.company/HoffStoreTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/HoffStore.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/HoffStoreTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1112" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SeleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Academy/TDD/StringCalculator" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Google Drive\Programmering\Javagrejer\SeleniumTest\Tests\com.company" />
+      <recent name="C:\Users\Administrator\Google Drive\Programmering\Javagrejer\SeleniumTest\Tests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HoffStoreTest">
+    <configuration name="HoffStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.HoffStoreTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HoffStoreTest.buySellTen_OneApple_MoneyCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.HoffStoreTest" />
+      <option name="METHOD_NAME" value="buySellTen_OneApple_MoneyCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HoffStoreTest.buySellTen_OneTV_MoneyCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.HoffStoreTest" />
+      <option name="METHOD_NAME" value="buySellTen_OneTV_MoneyCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HoffStoreTest.buySellThousand_OneApple_MoneyCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.HoffStoreTest" />
+      <option name="METHOD_NAME" value="buySellThousand_OneApple_MoneyCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HoffStoreTest.buySell_OneTV_MoneyCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.HoffStoreTest" />
+      <option name="METHOD_NAME" value="buySell_OneTV_MoneyCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.HoffStoreTest.buySellTen_OneApple_MoneyCorrect" />
+      <item itemvalue="JUnit.HoffStoreTest.buySellThousand_OneApple_MoneyCorrect" />
+      <item itemvalue="JUnit.HoffStoreTest.buySellTen_OneTV_MoneyCorrect" />
+      <item itemvalue="JUnit.HoffStoreTest.buySell_OneTV_MoneyCorrect" />
+      <item itemvalue="JUnit.HoffStoreTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HoffStoreTest" />
+        <item itemvalue="JUnit.HoffStoreTest.buySell_OneTV_MoneyCorrect" />
+        <item itemvalue="JUnit.HoffStoreTest.buySellTen_OneTV_MoneyCorrect" />
+        <item itemvalue="JUnit.HoffStoreTest.buySellThousand_OneApple_MoneyCorrect" />
+        <item itemvalue="JUnit.HoffStoreTest.buySellTen_OneApple_MoneyCorrect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="047af0b2-564f-491d-8e03-99b711a0e0c2" name="Default" comment="" />
+      <created>1542196579870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542196579870</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HoffStoreTest_buySellTen_OneApple_MoneyCorrect - 2018.11.15 at 14h 52m 34s.xml">
+      <configuration name="HoffStoreTest.buySellTen_OneApple_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest_buySellFirst_OneAppleOneTV_MoneyCorrect - 2018.11.15 at 14h 54m 16s.xml">
+      <configuration name="HoffStoreTest.buySellFirst_OneAppleOneTV_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest_buySellTen_OneApple_MoneyCorrect - 2018.11.15 at 14h 55m 38s.xml">
+      <configuration name="HoffStoreTest.buySellTen_OneApple_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest_buySellTen_OneApple_MoneyCorrect - 2018.11.15 at 14h 56m 01s.xml">
+      <configuration name="HoffStoreTest.buySellTen_OneApple_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest_buySellTen_OneApple_MoneyCorrect - 2018.11.15 at 14h 59m 45s.xml">
+      <configuration name="HoffStoreTest.buySellTen_OneApple_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest_buySellThousand_OneApple_MoneyCorrect - 2018.11.15 at 15h 03m 36s.xml">
+      <configuration name="HoffStoreTest.buySellThousand_OneApple_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest_buySellTen_OneTV_MoneyCorrect - 2018.11.15 at 15h 08m 19s.xml">
+      <configuration name="HoffStoreTest.buySellTen_OneTV_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest_buySell_OneTV_MoneyCorrect - 2018.11.15 at 15h 09m 47s.xml">
+      <configuration name="HoffStoreTest.buySell_OneTV_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest_buySell_OneTV_MoneyCorrect - 2018.11.15 at 15h 12m 07s.xml">
+      <configuration name="HoffStoreTest.buySell_OneTV_MoneyCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoffStoreTest - 2018.11.15 at 15h 14m 21s.xml">
+      <configuration name="HoffStoreTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32640588" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12793177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39853302" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3288835" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32762837" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/HoffStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="method#openBrowser#0;class#HoffStore#0" />
+            <element signature="method#closeBrowser#0;class#HoffStore#0" />
+            <element signature="method#selectTV#0;class#HoffStore#0" />
+            <element signature="method#enterAmount#0;class#HoffStore#0" />
+            <element signature="method#pressEnterInAmountBox#0;class#HoffStore#0" />
+            <element signature="method#getPurchaseConfirmation#0;class#HoffStore#0" />
+            <element signature="method#clickFirstSellButton#0;class#HoffStore#0" />
+            <element signature="method#getVATSum#0;class#HoffStore#0" />
+            <element signature="method#getReceiptTotal#0;class#HoffStore#0" />
+            <element signature="method#getMoney#0;class#HoffStore#0" />
+            <element signature="method#getReceiptList#0;class#HoffStore#0" />
+            <element signature="method#isProductFound#0;class#HoffStore#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/com/company/HoffStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="165" column="22" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+          <folding>
+            <element signature="method#setupTest#0;class#HoffStoreTest#0" />
+            <element signature="method#pressBuyButton_OneApplePurchase_Confirmed#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_FiveApplesPurchase_Confirmed#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_NaNAmount_ErrorMessage#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_MixedNaNAmount_ErrorMessage#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_Apples_SumOverLimit_ErrorMessage#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_DifferentThings_SumOverLimit_ErrorMessage#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_FiveApples_MoneyCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_OneAppleOneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_OneApple_ReceiptShowProduct#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_OneAppleOneTV_ReceiptShowProducts#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_OneAppleOneTV_TotalCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_TenApples_VATCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buy_TenApplesOneTV_VATCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buySell_OneApple_ReceiptTotalZero#0;class#HoffStoreTest#0" />
+            <element signature="method#buySell_OneApple_VATZero#0;class#HoffStoreTest#0" />
+            <element signature="method#buySell_OneApple_MoneyCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buySellFirst_OneAppleOneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buySellSecond_OneAppleOneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buySellAll_OneAppleOneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buySellTen_OneApple_MoneyCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buySell_OneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+            <element signature="method#buySellTen_OneTV_MoneyCorrect#0;class#HoffStoreTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>client-combined-3.9.1-sources</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SeleniumTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
